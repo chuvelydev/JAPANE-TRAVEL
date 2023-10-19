@@ -1,0 +1,56 @@
+header{background:#53b3e2;}
+body {
+    cursor: url('../img/cursor_summer.png'),auto;
+  }
+a:hover {
+    cursor: url('../img/cursor_summer.png'),auto;
+  }
+#container .con1{background:#7da1d6;}
+#container .con1_L{color:#335ba9;}
+.con1_L h3{background:#335ba9;}
+.con1_L h4{color:white;} 
+
+
+
+
+.con2_1 h2{color: #5e83c2;}
+.con2_1 p{color: #5e83c2;}
+.con2_2 .box{background:#5e83c2}
+
+.con3 h2{color: #5e83c2;}
+.con3 a p:nth-of-type(3) span{color:lightblue;}
+
+
+.con4 h2{color:#5e83c2;}
+.weather .left{background:#5e83c2;}
+.right .mascot{color:#5e83c2;}
+
+
+
+.con5 h3{color:#5e83c2;}
+.con5 .ul1_1{color:#5e83c2;}
+.ul1 .ul1_2{color:#5e83c2;}
+.fo1text h4{color: gray;}
+
+
+
+ /*con6*/
+
+ .con6 h2{color:#5e83c2}
+ .con6 span{color:#5e83c2}
+
+ 
+
+/*con7*/
+.con7 h2{color:#5e83c2}
+.con7 .ticket_wrap h2{color:#5e83c2}
+.con7_left_text{color:#5e83c2;}
+
+
+
+
+
+.con2_2 .box2{width:100%;height:350px;background: url(../img/place_okinawa1.jpg)no-repeat center/cover;}
+.con2_2 .box2_1{width:100%;height:350px;background: url(../img/place_okinawa2.jpg)no-repeat center/cover;}
+.con2_2 .box2_2{width:100%;height:350px;background: url(../img/place_okinawa3.jpg)no-repeat center/cover;}
+.con2_2 .box2_3{width:100%;height:350px;background: url(../img/place_okinawa4.jpg)no-repeat center/cover;}

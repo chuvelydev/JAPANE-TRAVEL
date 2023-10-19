@@ -1,0 +1,56 @@
+header{background:#afafaf;}
+body {
+    cursor: url('../img/cursor_winnter.png'),auto;
+  }
+a:hover {
+    cursor: url('../img/cursor_winnter.png'),auto;
+  }
+#container .con1{background:#f2f0f2;}
+#container .con1_L{color:#afafaf;}
+.con1_L h3{background:#afafaf;}
+.con1_L h4{color:black;} 
+
+
+
+
+.con2_1 h2{color: #afafaf;}
+.con2_1 p{color: #afafaf;}
+.con2_2 .box{background:#afafaf;}
+
+
+.con3 h2{color: #afafaf;}
+.con3 a p:nth-of-type(3) span{color:#afafaf;}
+
+
+.con4 h2{color:#afafaf;}
+.weather .left{background:#afafaf;}
+.right .mascot{color:#afafaf;}
+.con4 .mascot_img{width:55%;}
+
+
+.con5 h3{color:#afafaf;}
+.con5 .ul1_1{color:#afafaf;}
+.ul1 .ul1_2{color:#afafaf;}
+.fo1text h4{color: gray;}
+
+
+
+ /*con6*/
+
+ .con6 h2{color:#afafaf;}
+ .con6 span{color:#afafaf;}
+ 
+
+/*con7*/
+.con7 h2{color:#afafaf;}
+.con7 .ticket_wrap h2{color:#afafaf;}
+.con7_left_text{color:#afafaf;}
+
+
+
+
+
+.con2_2 .box2{width:100%;height:350px;background: url(../img/place_sapporo1.jpg)no-repeat center/cover;}
+.con2_2 .box2_1{width:100%;height:350px;background: url(../img/place_sapporo2.jpg)no-repeat center/cover;}
+.con2_2 .box2_2{width:100%;height:350px;background: url(../img/place_sapporo3.jpg)no-repeat center/cover;}
+.con2_2 .box2_3{width:100%;height:350px;background: url(../img/place_sapporo4.jpg)no-repeat center/cover;}

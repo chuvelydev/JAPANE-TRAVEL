@@ -1,0 +1,56 @@
+header{background:#f15b3a;}
+body {
+    cursor: url('../img/cursor_fall.png'),auto;
+  }
+a:hover {
+    cursor: url('../img/cursor_fall.png'),auto;
+  }
+#container .con1{background:#ffe180;}
+#container .con1_L{color:#f15b3a;}
+.con1_L h3{background:#f15b3a;}
+.con1_L h4{color:#ff834a;} 
+.con2_1 img{width:16%!important; margin-left:10vw}
+
+
+
+.con2_1 h2{color: #f15b3a;}
+.con2_1 p{color: #f15b3a;}
+.con2_2 .box{background:#f15b3a;}
+
+.con3 h2{color: #f15b3a;}
+.con3 a p:nth-of-type(3) span{color:lightblue;}
+
+
+.con4 h2{color:#f15b3a;}
+.weather .left{background:#f15b3a;}
+.right .mascot{color:#f15b3a;}
+
+
+
+.con5 h3{color:#f15b3a;}
+.con5 .ul1_1{color:#f15b3a;}
+.ul1 .ul1_2{color:#f15b3a;}
+.fo1text h4{color: gray;}
+
+
+
+ /*con6*/
+
+ .con6 h2{color:#f15b3a;}
+ .con6 span{color:#f15b3a;}
+
+ 
+
+/*con7*/
+.con7 h2{color:#f15b3a;}
+.con7 .ticket_wrap h2{color:#f15b3a;}
+.con7_left_text{color:#f15b3a;;}
+
+
+
+
+
+.con2_2 .box2{width:100%;height:350px;background: url(../img/place_fukuoka1.jpg)no-repeat center/cover;}
+.con2_2 .box2_1{width:100%;height:350px;background: url(../img/place_fukuoka2.jpg)no-repeat center/cover;}
+.con2_2 .box2_2{width:100%;height:350px;background: url(../img/place_fukuoka3.jpg)no-repeat center/cover;}
+.con2_2 .box2_3{width:100%;height:350px;background: url(../img/place_fukuoka4.jpg)no-repeat center/cover;}

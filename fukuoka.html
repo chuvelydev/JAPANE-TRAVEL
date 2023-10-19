@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FUKUOKA_TRAVEL</title>
+    <link href="/img/logo_b_title.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/fukuoka.css" rel="stylesheet">
+    <script>
+        function print()  {
+            const adult = document.getElementById('adult').value;          
+            document.getElementById("result1").value = adult*820 + '￥';
+        }
+        function print2()  {
+            const teenager = document.getElementById('teenager').value;          
+            document.getElementById("result2").value = teenager*410 + '￥';
+        }
+        
+        function print3()  {
+           
+            let result1 = document.getElementById('result1').value;
+            let result2 = document.getElementById('result2').value;
+
+            if(result1 != '' && result2 != ''){
+                result1 = parseInt(result1);
+                result2 = parseInt(result2);
+               
+                const result3 = result1 + result2;
+                document.getElementById("ticket_sum").value = result3 + '￥';
+                result1.value = '';
+                result2.value = '';
+              
+            }
+            if(result1 != '' && result2 === ''){    
+                result1 = parseInt(result1);
+               
+                document.getElementById("ticket_sum").value = result1 + '￥';
+                
+            }
+            if(result2 != '' && result1 === ''){    
+                result2 = parseInt(result2);
+                
+                document.getElementById("ticket_sum").value = result2 + '￥';
+                
+            }
+                
+            
+           
+          }
+
+    </script>
+
+</head>
+<body>
+    <header>
+        <h1><a href="index.html"><img src="img/logo_w.png"></a></h1>
+        <ul>
+            <li><a href="osaka.html">OSAKA</a></li>
+            <li><a href="okinawa.html">OKINAWA</a></li>
+            <li><a href="fukuoka.html">FUKUOKA</a></li>
+            <li><a href="sapporo.html">SAPPORO</a></li>
+        </ul>
+    </header>
+
+    <div id="container">
+        <div class="con1">
+            <div class="con1_wrap">
+                <div class="con1_L">
+                    <h2>가을</h2>
+                    <h2>주요관광지</h2>
+                    <h3>후쿠오카</h3>
+                    <h4>
+                        규슈 최대 도시이자 중심지이다. 가을이 춥지도 덥지도 않아 여행하기 가장 쾌적하다. 가을에는 단풍을 만끽할 수 있어 여행의 운치를 더한다. 일본 3대 지역 라면 중 하나인 하카타 라멘을 판매하는 라면집들이 많이 보인다. 한국과 가까운 지리적 이점 외에 기온이 온화해서 4계절 내내 여행하기 좋다.
+                    </h4>
+                </div>
+                <div class="con1_R">
+                    <img src="img/fall.png">
+                </div>
+            </div>
+        </div>
+
+        <div class="con2">
+            <div class="con2_1">
+                <h2>후쿠오카 명소</h2>
+                <p>ふくおかめいしょ</p>
+                <img src="img/fukuoka_illust.png">
+            </div>
+            <div class="con2_2">
+                <ul>
+                    <li>
+                        <a href="https://travel.naver.com/overseas/JPFUK1423813/poi/summary">
+                            <div class="box">
+                                <p class="boxp">오호리 공원<span>(おおほりこうえん)</span></p>
+                            </div>
+                            <div class="box2">
+                                <div class="black">
+                                    <p class="box2p">전국에서 손꼽히는 수경 공원인 오호리 공원의 연못은 국가 등록 기념물로, 주위에 산책로, 어린이 놀이동산 등을 배치하여 산책과 조깅, 휴식 장소로서 널리 이용되고 있습니다
+                                    </p>
+                                </div> 
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://travel.naver.com/overseas/JPFUK320334/poi/summary">
+                            <div class="box">
+                                <p class="boxp">커낼시티 하카타<span>(カナルシティ)</span></p>
+                            </div>
+                            <div class="box2_1">
+                                <div class="black">
+                                    <p class="box2p">'엔터테인먼트의 도시'라는 별칭이 붙을 정도로 시간, 계절, 세대, 국적에 관계없이 즐길 수 있는 다양한 이벤트와 전통적·현대적 문화행사가 열리며, 운하 중앙의 선플라자 무대 주변에서는 분수 쇼가 펼쳐진다.
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://travel.naver.com/overseas/JPFUK1423812/poi/summary">
+                            <div class="box">
+                                <p class="boxp">덴진 지하상가<span>(てんじんちかがい)</span></p>
+                            </div>
+                            <div class="box2_2">
+                                <div class="black">
+                                    <p class="box2p">규슈 최대의 번화가 텐진의 지하를 남북으로 관통하는 전체 길이 약 590m의 지하상가로 '덴치카'라는 애칭으로도 불린다. 유럽 거리를 콘셉트로한 이국적인 인테리어의 공간에 150여 개의 매장이 들어서 있다.
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://travel.naver.com/overseas/JPFUK1229304/poi/summary">
+                            <div class="box">
+                                <p class="boxp">후쿠오카 타워<span>(ふくおかタワー)</span></p>
+                            </div>
+                            <div class="box2_3">
+                                <div class="black">
+                                    <p class="box2p">전체 길이 234m로 일본 제일의 높이를 자랑하는 해변 타워로 하프 미러(반투명 거울) 8,000여 장으로 둘러싸여 있어 ‘미러 세일(Mirror Sail)’이란 별명이 있다.
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+         </div>
+
+        <div class="con3">
+            <h2>놓칠 수 없는 후쿠오카 투어</h2>
+            <ul>
+                <li>
+                    <a href="">
+                        <img src="img/tour_hucuoka1.jpg">
+                        <div class="ptext">
+                            <p>일본 후쿠오카 하카타만 나카스 수상버스 나카스 루트 & 하카타만 루트</p>
+                            <p>즉시확정 / 2일전까지 무료 취소</p>
+                            <p><span>★</span> 4.6 (75) ｜ 700+ 예약
+                            </p>
+                            <p class="none">KRW 00,000</p>
+                            <h4>KRW 4,492 부터</h4>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="img/tour_hucuoka2.jpg">
+                        <div class="ptext">
+                            <p>후쿠오카 근교 버스투어 다자이후 & 유후인 & 유후다케 & 벳부 (한국인가이드)</p>
+                            <p>2일 전까지 무료 취소</p>
+                            <p><span>★</span> 4.9 (413) ｜ 2K+ 예약
+                            </p>
+                            <p class="none">KRW 80,412</p>
+                            <h4>KRW 49,900</h4>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="img/tour_hucuoka3.jpg">
+                        <div class="ptext">
+                            <p>후쿠오카 마린월드 우미노나카미치 입장권</p>
+                            <p>구매 후 즉시 사용</p>
+                            <p><span>★</span> 4.8 (111) ｜ 1K+ 예약
+                            </p>
+                            <p>KRW 81,315</p>
+                            <h4>KRW 6,289 부터</h4>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="img/tour_hucuoka4.jpg">
+                        <div class="ptext">
+                            <p>규슈 오이타 야바케이 일일투어 아오노도몬 터널 (가을한정), 우사신궁, 유...</p>
+                            <p>11일 전까지 무료 취소
+                            </p>
+                            <p><span>★</span> 5.0 (5) ｜ 
+                                25+ 예약
+                            </p>
+                            <p class="none">KRW 89,000</p>
+                            <h4>KRW 79,069부터</h4>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>   
+        <div class="con4">
+            <div class="con4_wrap">
+                <h2>후쿠오카의 가을은?</h2>
+                <div class="weather">
+                    <div class="left">
+                        <img src="img/weather_fall.png">
+                        <div class="text">
+                            <p>
+                                <span class="blue">15.4 ℃</span>
+                                / <span class="red">23.4 ℃</span>
+                            </p>
+                            <p>(평균기온 20.5℃)</p>
+                            <p>후쿠오카의 가을은 서울의 가을 날씨와 비슷합니다. 평균 최저기온이 영상 15.4℃, 평균 최고기온이 영상 23.4℃이며 월평균 일교차는 8℃입니다. 평균 강수량은 73.7mm, 평균 강수일수는 6.2일로 한번에 비교적 많은 비가 내리는 게 특징입니다.</p>
+                            <p>
+                                얇은 긴 소매 옷과 카디건, 바람막이 등의 가을 옷 위주로 챙겨가시면 되겠습니다. 비가 잦은 편은 아니지만 여행 중 비를 만날 가능성이 있으니 접는 우산 하나를 가져가시는 게 좋겠습니다.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="mascot">
+                            <div class="mascot_img">
+                                <img src="img/mascot_hucuoka.png">
+                            </div>
+                            <div class="r_text">
+                                    <h3>후쿠오카 마스코트</h3>
+                                    <h4>Cue Chan</h4>
+                                    <p>キ ューちゃん</p>
+                            </div>
+                        </div>
+                        <video class="video" autoplay  muted controls loop>
+                            <source type="video/mp4" src="video/fall.mp4" >
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <div class="con5">
+            <div class="con5_1">
+                <ul class="ul1">
+                    <li><h3>FUKUOKA<br>FOOD</h3>
+                        <p class="ul1_1">후쿠오카<br>대표 먹거리</p>
+                    </li>
+                    <li>
+                        <p class="ul1_2">に<br>ほ<br>ん<br>し<br>ょ<br>く</p>
+                    </li>
+                </ul>
+                <div class="food_wrap">
+                    <div class="fo3">
+                        <div class="fo1text">
+                            <h4>모츠나베</h4>
+                            <p>모츠 오오야마</p>
+                            <p>〒812-0012 Fukuoka, Hakata Ward, Hakataekichuogai, 9−1 KITTE博多 9F</p>
+                        </div>
+                        <img src="img/food_hucuoka3.png">
+                    </div>
+                    <div class="fo4">
+                        <div class="fo1text">
+                            <h4>야키토리</h4>
+                            <p>야키토리 쿠로다</p>
+                            <p>〒812-0038 Fukuoka, Hakata Ward, Gionmachi, 6−33 鬼鞍ビル</p>
+                        </div>
+                        <img src="img/food_hucuoka4.jpg">
+                    </div>
+                    <div class="fo2">
+                        <div class="fo1text">
+                            <h4>함바그</h4>
+                            <p>키와미야 함바그</p>
+                            <p>博多区福岡812-0012 階2-11</p>
+                        </div>
+                        <img src="img/food_hucuoka2.jpg">
+                    </div>
+                    <div class="fo1">
+                        <div class="fo1text">
+                            <h4>교자</h4>
+                            <p>히토쿠치 교자</p>
+                            <p>8810-0003 福岡市中央区春吉3丁目26-27</p>
+                         </div>
+                        <img src="img/food_hucuoka1.png">
+                    </div>
+                </div>
+                <ul class="ul2">
+                 <li><img src="img/fork.png"></li>
+                 <li><img src="img/spoon.png"></li>
+                 </ul>
+            </div>
+        </div>
+        <div class="con6">
+            <h2>HOTEL<span>(ホテル)</span></h2>
+
+        <div class="wrap">
+            <div class="big">
+                <a href="">
+                    <img src="img/hotel_8.jpg">
+                    <div class="tag">
+                        <p>가을 숙소 베스트<p>
+                        <p>#가을#숙소#감성#숙소#베스트#후기#500+#포토스팟</p>
+                    </div>
+                    <div class="tag1">
+                        <p>Click Me</p>
+                    </div>
+                </a>
+            </div>
+
+          
+                <ul>
+                    <li>
+                        <a href="">
+                            <img src="img/hotel_2.jpg">
+                            <div class="tag3">
+                                <p>아늑한숙소</p>
+                                <p>#일본스타일#에어비앤비#코타츠</p>
+                            </div>
+                            <div class="tag4">
+                                <p>Click Me</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="img/hotel_10.jpg">
+                            <div class="tag3">
+                                <p>고요한숙소</p>
+                                <p>#일본스타일#감성숙소#분위기있는</p>
+                            </div>
+                            <div class="tag4">
+                                <p>Click Me</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="margin">
+                        <a href="">
+                            <img src="img/hotel_7.jpg">
+                            <div class="tag3">
+                                <p>오픈형숙소</p>
+                                <p>#오픈되있는#숙소#풍경</p>
+                            </div>
+                            <div class="tag4">
+                                <p>Click Me</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="margin">
+                        <a href="">
+                            <img src="img/hotel_5.jpg">
+                            <div class="tag3">
+                                <p>가정집스타일숙소</p>
+                                <p>#일본가정집#아늑한#감성숙소</p>
+                            </div>
+                            <div class="tag4">
+                                <p>Click Me</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+          
+        </div>
+    </div>
+    <div class="con7">
+        <h2>Rail Pass <span>(レールパス)</span></h2>
+        <img src="img/ticket_fall.jpg">
+        <div class="con7_left_text">
+            <p>
+                <h4 style="font-size: 1.5vw; padding-bottom:3%">후쿠오카-시티패스</h4> 
+                <span>
+                  후쿠오카 시내의 버스,전철,지하철 등의 5개 교통편을 하루동안 무제한 이용할 수 있는 교통패스
+  
+                </span>
+                  
+                  가격
+                  1일 24시간: 어른 820엔/어린이 410엔
+              </p>
+        </div>
+        <div class="ticket_wrap">
+            <div class="ticket_title">후쿠오카 티켓</div>
+            <h2>JR</h2>
+            <ul>
+                <li>
+                    &nbsp;성인 &nbsp;&nbsp;<input id='adult' onchange='print()' value=''/>
+                </li>
+                
+                <li>
+                    총가격 <input id='result1'readonly/>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    청소년 <input id='teenager' onchange='print2()' value=''/>
+                </li>
+                
+                <li>
+                    총가격 <input id='result2'readonly/>
+                </li>
+                <input id="ticket_button" type="button" value="총 합계" onclick="print3()">
+            </ul>
+            <ul>
+                <li>
+                    총합계 <input id="ticket_sum">
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="con8">
+        <ul>
+            <li>
+                <h2>더 많은 여행팁을 알고 싶다면?</h2>
+            </li>
+            <li>
+                <a href="#">
+                    +MORE
+                </a>
+            </li>
+        </ul>
+    </div>
+    </div>
+    
+    <footer>
+        <h4>KR 서울특별시 강서구 화곡로 149 3층 <br>3rd floor, 149, Hwafok-ro, Gangseo-gu, Seoul, KR</h4>
+        <img src="img/footer_cat.png">
+        <div class="sns">
+            <div class="img">
+                <a href=""><img src="img/facebook_b.png"></a>
+                <a href=""><img src="img/insta_b.png"></a>
+                <a href=""><img src="img/twitter_b.png"></a>
+                <a href=""><img src="img/pinterest_b.png"></a>
+            </div>
+            <p>이용약관 ｜ 개인정보관리방침</p>
+        </div>
+    </footer>
+
+</body>
+</html>

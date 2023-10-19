@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAPPORO_TRAVEL</title>
+    <link href="/img/logo_b_title.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/sapporo.css" rel="stylesheet">
+    <script>
+        function print()  {
+            const adult = document.getElementById('adult').value;          
+            document.getElementById("result1").value = adult*1900 + '￥';
+        }
+        function print2()  {
+            const teenager = document.getElementById('teenager').value;          
+            document.getElementById("result2").value = teenager*950 + '￥';
+        }
+        
+        function print3()  {
+           
+            let result1 = document.getElementById('result1').value;
+            let result2 = document.getElementById('result2').value;
+
+            if(result1 != '' && result2 != ''){
+                result1 = parseInt(result1);
+                result2 = parseInt(result2);
+               
+                const result3 = result1 + result2;
+                document.getElementById("ticket_sum").value = result3 + '￥';
+                result1.value = '';
+                result2.value = '';
+              
+            }
+            if(result1 != '' && result2 === ''){    
+                result1 = parseInt(result1);
+               
+                document.getElementById("ticket_sum").value = result1 + '￥';
+                
+            }
+            if(result2 != '' && result1 === ''){    
+                result2 = parseInt(result2);
+                
+                document.getElementById("ticket_sum").value = result2 + '￥';
+                
+            }
+                
+            
+           
+          }
+
+    </script>
+</head>
+<body>
+    <header>
+        <h1><a href="index.html"><img src="img/logo_w.png"></a></h1>
+        <ul>
+            <li><a href="osaka.html">OSAKA</a></li>
+            <li><a href="okinawa.html">OKINAWA</a></li>
+            <li><a href="fukuoka.html">FUKUOKA</a></li>
+            <li><a href="sapporo.html">SAPPORO</a></li>
+        </ul>
+    </header>
+    <div id="container">
+        <div class="con1">
+            <div class="con1_wrap">
+                <div class="con1_L">
+                    <h2>겨울</h2>
+                    <h2>주요관광지</h2>
+                    <h3>삿포로</h3>
+                    <h4>
+                        겨울에는 환상의 놀이공원!  각종 야외 활동과 명품 맥주와 같은 다양한 먹거리를 삿포로에서 즐기자!
+                        아이누 토착어로 ‘평야가 흐는 중요한  강’이라는 뜻의 삿포로. 세계에서 몇 안되는 폭설량을 자랑하는 대도시 중 하나로 12월 중순부터 삿포로 시내에는 새하얀 눈이 내리는 겨울의 원더랜드로 변신한다. 설상 스포츠 애호가, 초보자 모두에게 이상적인 지역이다.
+                    </h4>
+                </div>
+                <div class="con1_R">
+                    <img src="img/winter.png">
+                </div>
+            </div>
+        </div>
+        <div class="con2">
+            <div class="con2_1">
+                <h2>삿포로 명소</h2>
+                <p>さっぽろし</p>
+                <img src="img/sapporo.png">
+            </div>
+            <div class="con2_2">
+                <ul>
+                    <li>
+                        <a href="">
+                            <div class="box">
+                                <p class="boxp">TV Tower(さっぽろテレビタワー)</p>
+                            </div>
+                            <div class="box2">
+                                <div class="black">
+                                    <p class="box2p">삿포로의 가장 상징적인 랜드마크. 엘리베이터를 타고 90.38M 높이의
+                                    전망대에 올라 도시의 전망을 360도로 감상 할 수 있다.
+                                    </p>
+                                </div>   
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="box">
+                                <p class="boxp">스스키노<span> (すすきの)</span></p>
+                            </div>
+                            <div class="box2_1">
+                                <div class="black">
+                                    <p class="box2p">상징적인 유흥 지구 삿포로의 스스키노! 이자카야, 레스토랑, 바, 가로오케 등 다양한 시설 및 클럽이 다양하게 어우러져 있다. 거대한 네온사인이 있는 교차로는 삿포로의 야경 사진을 찍을 수 있는 초고의 포토 스팟이다.
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="box">
+                                <p class="boxp">오도리 공원<span> (おおどおりこうえん)</span></p>
+                            </div>
+                            <div class="box2_2">
+                                <div class="black">
+                                    <p class="box2p">삿포로 중심부를 동서로 1.5km를 가로지르는 꽃과 나무가 늘어선 아름다운 정원이다. 이 공원은 겨울의 삿포로 눈 축제부터 여름의 광대한 독일식 비어 가든에 이르기까지 삿포로의 가장 상징적은 행사의 중심지이다.
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="box">
+                                <p class="boxp">비에이 <span> (びえい)</span></p>
+                            </div>
+                            <div class="box2_3">
+                                <div class="black">
+                                    <p class="box2p">삿포로 근교에 위치한 비에이 지역. 영화 '러브레터' 촬영지로 드넓은 언덕의 설경이 대자연을 느끼게 해준다.
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+         </div>
+
+        <div class="con3">
+            <h2>놓칠 수 없는 삿포로 투어</h2>
+            <ul>
+                <li>
+                    <a href="">
+                        <img src="img/tour_sapporo1.jpg">
+                        <div class="ptext">
+                            <p>삿포로 비에이 & 후라노 일일투어 (한국어 가이드)</p>
+                            <p>2일 전까지 무료 취소</p>
+                            <p><span>★</span> 4.6 (388) ｜ 1K+ 예약
+                            </p>
+                            <p class="none">KRW 00,000</p>
+                            <h4>KRW 71,377 부터</h4>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="img/tour_sapporo2.jpg">
+                        <div class="ptext">
+                            <p>홋카이도 후라노 일일투어｜팜토미타 무지개 꽃밭 & 비에이 시키사이 언덕 & ...</p>
+                            <p>11일 전까지 무료 취소</p>
+                            <p><span>★</span> 4.6 (388) ｜ 1K+ 예약
+                            </p>
+                            <p>KRW 80,412</p>
+                            <h4>KRW 49,873 부터</h4>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="img/tour_sapporo3.jpg">
+                        <div class="ptext">
+                            <p>【출발 보장】 홋카이도 1일 투어｜아사하야마 동물원 & 아오이이케 & 시라...</p>
+                            <p>12일 전까지 무료 취소</p>
+                            <p><span>★</span> 4.6 (402) ｜ 1K+ 예약
+                            </p>
+                            <p>KRW 81,315</p>
+                            <h4>KRW 40,657 부터</h4>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="img/tour_sapporo4.jpg">
+                        <div class="ptext">
+                            <p>노보리베츠 오타루 버스투어 (삿포로 출발 / 한국인가이드)</p>
+                            <p>2일 전까지 무료 취소</p>
+                            <p class="none"><span>★</span> 4.6 (388) ｜ 1K+ 예약
+                            </p>
+                            <p>KRW 59,000</p>
+                            <h4>KRW 49,900</h4>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>   
+        <div class="con4">
+            <div class="con4_wrap">
+                <h2>삿포로의 겨울은?</h2>
+                <div class="weather">
+                    <div class="left">
+                        <img src="img/weather_winter.png">
+                        <div class="text">
+                            <p>
+                                <span class="blue">- 4.1 ℃</span>
+                                / <span class="red">2.1 ℃</span>
+                            </p>
+                            <p>(평균기온 6.2℃)</p>
+                            <p>삿포로의 겨울 평균 최저 기온은 4.1℃,<br> 평균 최고기온은 2.1℃로 일교차는 평균적으로
+                            6.2℃로 벌어집니다. 평균 강수일수는 15.4일로
+                            눈이 자주 내립니다.</p>
+                            <p>
+                                눈이 자주 내리기 때문에 튼튼한 우산이 필요합니다.<br>
+                                추운 겨울철 기온분포를 보이므로 따뜻한 옷차림으로
+                                여행하시기 바랍니다. 목도리나 장갑, 털모자, 귀마개 등의 방한 용품도 잘 활용하시면 좋습니다.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="mascot">
+                            <div class="mascot_img">
+                                <img src="img/mascot_sapporo.png">
+                            </div>
+                            <div class="r_text">
+                                <h3>삿포로 마스코트</h3>
+                                <h4>Cue Chan</h4>
+                                <p>キ ューちゃん</p>
+                            </div>
+                        </div>
+                        <video class="video" autoplay  muted controls loop>
+                            <source type="video/mp4" src="video/winter.mp4" >
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <div class="con5">
+            <div class="con5_1">
+                <ul class="ul1">
+                    <li><h3>SAPPORO<br>FOOD</h3>
+                        <p class="ul1_1">삿포로<br>대표 먹거리</p>
+                    </li>
+                    <li>
+                        <p class="ul1_2">に<br>ほ<br>ん<br>し<br>ょ<br>く</p>
+                    </li>
+                </ul>
+                <div class="food_wrap">
+                    <div class="fo3">
+                        <div class="fo1text">
+                            <h4>카이센동</h4>
+                            <p>모토무라 규카츠</p>
+                            <p>〒542-0076 大阪府大阪市中央区難波３丁目６−17 地下1階 なんばチップスビル</p>
+                        </div>
+                        <img src="img/food_sapporo3.png">
+                    </div>
+                    <div class="fo4">
+                        <div class="fo1text">
+                            <h4>징기스칸</h4>
+                            <p>징기스칸 다루마</p>
+                            <p>〒 064-0805  Hokkaido, Sapporo, Chuo Ward,
+                                <br>Minami 5 Jonishi,  5 Chome-1-1
+                            </p>
+                        </div>
+                        <img src="img/food_sapporo4.jpg">
+                    </div>
+                    <div class="fo2">
+                        <div class="fo1text">
+                            <h4>미소라멘</h4>
+                            <p>앗치치혼포</p>
+                            <p>〒〒542-0084 大阪府大阪市中央区宗右衛門町７−19</p>
+                        </div>
+                        <img src="img/food_sapporo2.jpg">
+                    </div>
+                    <div class="fo1">
+                        <div class="fo1text">
+                            <h4>스프카레</h4>
+                            <p>가라쿠(GARAKU)</p>
+                            <p>〒 060-0062 Hokkaido, Sapporo, Chuo Ward,<br>Minami 2 Jonishi, 2 Chome-６-1 おくむらビル B１</p>
+                         </div>
+                        <img src="img/food_sapporo1.jpg">
+                    </div>
+                </div>
+                <ul class="ul2">
+                 <li><img src="img/fork.png"></li>
+                 <li><img src="img/spoon.png"></li>
+                 </ul>
+            </div>
+        </div>
+        <div class="con6">
+            <h2>HOTEL<span>(ホテル)</span></h2>
+
+        <div class="wrap">
+            <div class="big">
+                <a href="">
+                    <img src="img/hotel_sapporo1.jpg">
+                    <div class="tag">
+                        <p>눈꽃 숙소 베스트<p>
+                        <p>#눈#숙소#감성#숙소#베스트#후기#500+#포토스팟</p>
+                    </div>
+                    <div class="tag1">
+                        <p>Click Me</p>
+                    </div>
+                </a>
+            </div>
+
+          
+                <ul>
+                    <li>
+                        <a href="">
+                            <img src="img/hotel_sapporo2.jpg">
+                            <div class="tag3">
+                                <p>아늑한숙소</p>
+                                <p>#일본스타일#에어비앤비#료칸</p>
+                            </div>
+                            <div class="tag4">
+                                <p>Click Me</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src=" img/hotel_sapporo3.jpg">
+                            <div class="tag3">
+                                <p>고요한숙소</p>
+                                <p>#일본스타일#감성숙소#온천</p>
+                            </div>
+                            <div class="tag4">
+                                <p>Click Me</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="margin">
+                        <a href="">
+                            <img src="img/hotel_sapporo4.jpg">
+                            <div class="tag3">
+                                <p>깔끔한숙소</p>
+                                <p>#분위기있는#아늑한#숙소</p>
+                            </div>
+                            <div class="tag4">
+                                <p>Click Me</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="margin">
+                        <a href="">
+                            <img src="img/hotel_sapporo5.jpg">
+                            <div class="tag3">
+                                <p>오픈형숙소</p>
+                                <p>#야외#풍경#온천</p>
+                            </div>
+                            <div class="tag4">
+                                <p>Click Me</p>
+                            </div>                        
+                        </a>
+                    </li>
+                </ul>
+          
+        </div>
+    </div>
+    <div class="con7">
+        <h2>Rail Pass <span>(レールパス)</span></h2>
+        <img src="img/ticket_winter2.jpg">
+        <div class="con7_left_text">
+            <p>
+                <h4 style="font-size: 1.5vw; padding-bottom:3%">삿포로-레일패스</h4> 
+                <span>
+                  훗카이도 지역 전역을 여행할 계획이라면 이 패스가 가장 무난한 선택, 훗카이도 레일패스는 jr훗카이도 단독으로 발행,훗카이도에 속해 있는 모든 jr열차를 탑승할수 있습니다.
+  
+                </span>
+                  
+                  가격
+                  1일 24시간: 어른 1900엔/어린이 950엔
+              </p>
+        </div>
+        <div class="ticket_wrap">
+            <div class="ticket_title">삿포로 티켓</div>
+            <h2>JR</h2>
+            <ul>
+                <li>
+                    &nbsp;성인 &nbsp;&nbsp;<input id='adult' onchange='print()' value=''/>
+                </li>
+                
+                <li>
+                    총가격 <input id='result1'readonly/>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    청소년 <input id='teenager' onchange='print2()' value=''/>
+                </li>
+                
+                <li>
+                    총가격 <input id='result2'readonly/>
+                </li>
+                <input id="ticket_button" type="button" value="총 합계" onclick="print3()">
+            </ul>
+            <ul>
+                <li>
+                    총합계 <input id="ticket_sum">
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="con8">
+        <ul>
+            <li>
+                <h2>더 많은 여행팁을 알고 싶다면?</h2>
+            </li>
+            <li>
+                <a href="#">
+                    +MORE
+                </a>
+            </li>
+        </ul>
+    </div>
+    
+    <footer>
+        <h4>KR 서울특별시 강서구 화곡로 149 3층 <br>3rd floor, 149, Hwafok-ro, Gangseo-gu, Seoul, KR</h4>
+        <img src="img/footer_cat.png">
+        <div class="sns">
+            <div class="img">
+                <a href=""><img src="img/facebook_b.png"></a>
+                <a href=""><img src="img/insta_b.png"></a>
+                <a href=""><img src="img/twitter_b.png"></a>
+                <a href=""><img src="img/pinterest_b.png"></a>
+            </div>
+            <p>이용약관 ｜ 개인정보관리방침</p>
+        </div>
+    </footer>
+
+</body>
+</html>

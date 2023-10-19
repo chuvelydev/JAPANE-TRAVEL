@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OKINAWA_TRAVEL</title>
+  
+    <link href="css/okinawa.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="/img/logo_b_title.ico" rel="shortcut icon" type="image/x-icon">
+    <script>
+        function print()  {
+            const adult = document.getElementById('adult').value;          
+            document.getElementById("result1").value = adult*2500 + '￥';
+        }
+        function print2()  {
+            const teenager = document.getElementById('teenager').value;          
+            document.getElementById("result2").value = teenager*1250 + '￥';
+        }
+        
+        function print3()  {
+           
+            let result1 = document.getElementById('result1').value;
+            let result2 = document.getElementById('result2').value;
+
+            if(result1 != '' && result2 != ''){
+                result1 = parseInt(result1);
+                result2 = parseInt(result2);
+               
+                const result3 = result1 + result2;
+                document.getElementById("ticket_sum").value = result3 + '￥';
+                result1.value = '';
+                result2.value = '';
+              
+            }
+            if(result1 != '' && result2 === ''){    
+                result1 = parseInt(result1);
+               
+                document.getElementById("ticket_sum").value = result1 + '￥';
+                
+            }
+            if(result2 != '' && result1 === ''){    
+                result2 = parseInt(result2);
+                
+                document.getElementById("ticket_sum").value = result2 + '￥';
+                
+            }
+                
+            
+           
+          }
+
+    </script>
+
+
+</head>
+<body>
+
+    <header>
+        <h1><a href="index.html"><img src="img/logo_w.png"></a></h1>
+        <ul>
+            <li><a href="osaka.html">OSAKA</a></li>
+            <li><a href="okinawa.html">OKINAWA</a></li>
+            <li><a href="fukuoka.html">FUKUOKA</a></li>
+            <li><a href="sapporo.html">SAPPORO</a></li>
+        </ul>
+    </header>
+
+
+
+    <div id="container">
+        <div class="con1">
+            <div class="con1_wrap">
+                <div class="con1_L">
+                    
+                    <h2>여름</h2>
+                    <h2>주요관광지</h2>
+                    <h3>오키나와</h3>
+                    <h4>
+                        오키나와- 오키나와는 일본의 지역 중 최남서단에 위치한 곳으로, 
+                        일본에서 가장 남쪽에 위치한 현인 오키나와현 지역을 말한다.
+                        과거 류큐 왕국이 있었기에 류큐라고 불리기도 한다.
+                        원래 오키나와라는 이름은 이 지역에서 가장 큰 섬인 오키나와섬만을 가리키는 지명이었다. 
+                        오키나와 본도외 160여개 섬지역까지 '오키나와 지방' 이라는 이름으로 묶인 것은 그리 오래 되지 않았다. 
+                    </h4>
+                </div>
+                <div class="con1_R">
+                    <img src="img/summer.png">
+                </div>
+            </div>
+        </div>
+
+        <div class="con2">
+            <div class="con2_1">
+                <h2>오키나와 명소</h2>
+                <p>おきなわめいしょ</p>
+                <img src="img/okinawa_illust.png">
+            </div>
+            <div class="con2_2">
+                <ul>
+                    <li>
+                        <a href="">
+                            <div class="box">
+                                <p class="boxp">추라우마 수족관<span>(すいぞくかん)</span></p>
+                            </div>
+                            <div class="box2">
+                                <div class="black">
+                                    <p class="box2p">거대한 규모를 자랑하는 츄라우미 수족관! 츄라우미는 오키나와 말로 아름다운 바다라는 뜻을 가지고 있어요. 엄청나게 거대해 생생한 바닷속 같은 수조 속 고래상어와 돌고래 쇼를 보기 위해 매년 많은 가족 여행객들이 방문하는 곳입니다.
+                                    </p>
+                                </div> 
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="box">
+                                <p class="boxp">만좌모<span>(まんざ‐もう)</span></p>
+                            </div>
+                            <div class="box2_1">
+                                <div class="black">
+                                    <p class="box2p">오키나와에서 유명한 코끼리 모양 절벽! 만 명이 앉을 수 있을 만큼 넓다고 해서 만좌모라는 이름이 붙여졌어요. 이곳의 잔디에서 바다를 바라보고 있으면 그 탁 트인 아름다운 절경에 넋을 잃을 수밖에 없답니다.
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="box">
+                                <p class="boxp">아메리칸빌리지<span>(アメリカンビレッジ)</span></p>
+                            </div>
+                            <div class="box2_2">
+                                <div class="black">
+                                    <p class="box2p">아름다운 대관람차가 상징적인 이곳은 레스토랑, 카페, 상점 등이 들어선 종합 쇼핑센터로 놀이공원에 온 것 같은 착각을 불러일으키기도 해요. 관람차는 15분간 탑승할 수 있으며 일몰 시간에는 아름다운 석양을 감상할 수 있는 일몰 맛집이랍니다.
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="box">
+                                <p class="boxp">파인애플 파크<span>(パイナップルパーク)</span></p>
+                            </div>
+                            <div class="box2_3">
+                                <div class="black">
+                                    <p class="box2p">오키나와를 대표하는 과일이 파인애플인 것을 아시나요? 그래서 만들어진 이 파인애플 농장은 엄청난 부지에 다양한 파인애플 캐릭터와 볼거리로 풍성한 곳입니다. 파인애플 모양의 카트를 타고 농장을 구경하는 경험은 아이들과 함께하면 더욱 즐거운 기억으로 남을 여행지랍니다.
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+         </div>
+
+         <div class="con3">
+            <h2>놓칠 수 없는 오키나와 투어</h2>
+            <ul>
+                <li>
+                    <a href="">
+                        <img src="img/tour_okinawa1.jpg">
+                        <div class="ptext">
+                            <p>오키나와 츄라우미 수족관 입장권</p>
+                            <p>구매 후 즉시 사용</p>
+                            <p><span>★</span> 4.9 (1,219) ｜ 9K+ 예약
+                            </p>
+                            <p class="none">KRW 00,000</p>
+                            <h4>KRW 6,379 부터</h4>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="img/tour_okinawa2.jpg">
+                        <div class="ptext">
+                            <p>[선착순 15% 할인]오키나와 북부 핵심 코스 1일</p>
+                            <p>2일 전까지 무료 취소</p>
+                            <p><span>★</span> 4.9 (29) ｜ 300+ 예약
+                            </p>
+                            <p>KRW 45.824</p>
+                            <h4>KRW 37,423 부터</h4>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="img/tour_okinawa3.jpg">
+                        <div class="ptext">
+                            <p>오키나와 케라마 제도 스노클링 투어</p>
+                            <p>2일 전까지 무료 취소</p>
+                            <p><span>★</span> 4.8 (124) ｜ 300+ 예약
+                            </p>
+                            <p class="none">KRW 76,373</p>
+                            <h4>KRW 35,760 부터</h4>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="img/tour_okinawa4.jpg">
+                        <div class="ptext">
+                            <p>유니버셜 스튜디오 재팬 입장권│일본오사카 (공식 라이센스)</p>
+                            <p>구매 후 즉시 사용</p>
+                            <p><span>★</span> 4.8 (9,440) ｜ 100K+ 예약
+                            </p>
+                            <p class="none">KRW 59,000</p>
+                            <h4>KRW 50,200 부터</h4>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>   
+        <div class="con4">
+            <div class="con4_wrap">
+                <h2>오키나와의 여름은?</h2>
+                <div class="weather">
+                    <div class="left">
+                        <img src="img/weather_spring.png">
+                        <div class="text">
+                            <p>
+                                <span class="blue">20.5℃</span>
+                                / <span class="red">34.9℃</span>
+                            </p>
+                            <p>(평균기온 20℃)</p>
+                            <p>오키나와의 여름 날씨는 매우 덥고 습합니다.
+                                평균 기온은 27~28도 정도이며,최고 기온은 
+                                35도까지 올라가 수 있습니다.
+                            </p>
+                            <p>
+                                여름에 오키나와 여행할 떄는 땀을 많이 흘릴
+                                것을 대비하여 가벼운 옷차림에 겉옷을 챙겨가는 것이 좋습니다.
+                                오키나와의 여름은 해수욕을 즐기기에 좋은 시기
+                                입니다. 오키나와의 해변은 깨끗하고 모래는
+                                부드러워 ,여름휴가를 보내기에 최적의 장소
+                                입니다.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="mascot">
+                            <div class="mascot_img"><img src="img/mascot_okinawa.png"></div>
+                            <div class="r_text">
+                                <h3>오키나와 마스코트</h3>
+                                <h4>yaese's shi-chan</h4>
+                                <p>やえせのシーちゃん</p>
+                            </div>
+                        </div>
+                        <video class="video" autoplay  muted controls loop>
+                            <source type="video/mp4" src="video/summer.mp4" >
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <div class="con5">
+            <div class="con5_1">
+                <ul class="ul1">
+                    <li><h3>OKINAWA<br>FOOD</h3>
+                        <p class="ul1_1">오키나와<br> 대표 먹거리</p>
+                    </li>
+                    <li>
+                        <p class="ul1_2">に<br>ほ<br>ん<br>し<br>ょ<br>く</p>
+                    </li>
+                </ul>
+                <div class="food_wrap">
+                    <div class="fo3">
+                        <a href="">
+                            <div class="fo1text">
+                                <h4>라후테</h4>
+                                <p>유우난기</p>
+                                <p>3 Chome-3-3 Kumoji, Naha, Okinawa 900-0015 일본</p>
+                            </div>
+                            <img src="img/food_okinawa3.jpg">
+                        </a>
+                    </div>
+                    <div class="fo4">
+                        <a href="">
+                            <div class="fo1text">
+                                <h4>지마미 두부</h4>
+                                <p>오키나와 슈퍼, 마트</p>
+                                <p class="none">〒542-0071 大阪府大阪市中央区道頓堀１丁目６−8 道頓堀だるまビル 2F
+                                </p>
+                            </div>
+                            <img src="img/food_okinawa4.jpg">
+                        </a>
+                    </div>
+                    <div class="fo2">
+                        <a href="">
+                            <div class="fo1text">
+                                <h4>아구 돼지</h4>
+                                <p>아사토야</p>
+                                <p>일본 〒902-0067 Okinawa, Naha, Asato, 1 Chome−3−3 安里ビル ２Ｆ</p>
+                            </div>
+                            <img src="img/food_okinawa2.jpg">
+                        </a>
+                    </div>
+                    <div class="fo1">
+                        <a href="">
+                            <div class="fo1text">
+                                <h4>오키나와 소바</h4>
+                                <p>키시모토 식당(そば きしもと食堂)</p>
+                                <p>5 Toguchi, 本部町 Motobu, Kunigami District, Okinawa 905-0214 일본</p>
+                            </div>
+                            <img src="img/food_okinawa1.jpg">
+                        </a>
+                    </div>
+                </div>
+                <ul class="ul2">
+                 <li><img src="img/fork.png"></li>
+                 <li><img src="img/spoon.png"></li>
+                 </ul>
+            
+            </div>
+        </div>
+
+        <div class="con6">
+                <h2>HOTEL<span>(ホテル)</span></h2>
+
+            <div class="wrap">
+                <div class="big">
+                    <a href="">
+                        <img src="img/hotel_okinawa6.jpg">
+                        <div class="tag">
+                            
+                            <p>오키나와 숙소 베스트<p>
+                            <p>#오키나와#숙소#감성#숙소#베스트#후기#500+#포토스팟</p>
+                        </div>
+                        <div class="tag1">
+                            <p>Click Me</p>
+                        </div>
+                    </a>
+                </div>
+
+              
+                    <ul>
+                        <li>
+                            <a href="">
+                                <img src="img/hotel_okinawa2.jpg">
+                                <div class="tag3">
+                                    <p>아늑한숙소</p>
+                                    <p>#일본스타일#에어비앤비#코타츠</p>
+                                </div>
+                                <div class="tag4">
+                                    <p>Click Me</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="img/hotel_okinawa3.jpg">
+                                <div class="tag3">
+                                    <p>고요한숙소</p>
+                                    <p>#일본스타일#감성숙소#분위기있는</p>
+                                </div>
+                                <div class="tag4">
+                                    <p>Click Me</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="margin">
+                            <a href="">
+                                <img src="img/hotel_okinawa4.jpg">
+                                <div class="tag3">
+                                    <p>오픈형숙소</p>
+                                    <p>#오픈되있는#숙소#풍경</p>
+                                </div>
+                                <div class="tag4">
+                                    <p>Click Me</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="margin">
+                            <a href="">
+                                <img src="img/hotel_okinawa7.jpg">
+                                <div class="tag3">
+                                    <p>가정집스타일숙소</p>
+                                    <p>#일본가정집#아늑한#감성숙소</p>
+                                </div>
+                                <div class="tag4">
+                                    <p>Click Me</p>
+                                </div>               
+                            </a>
+                        </li>
+                    </ul>
+              
+            </div>
+        </div>
+
+        <div class="con7">
+            <h2>Rail Pass <span>(レールパス)</span></h2>
+            <img src="img/ticket_summer2.jpg">
+            <div class="con7_left_text">
+                <p>
+                    <h4 style="font-size: 1.5vw; padding-bottom:3%">오키나와-주유패스</h4> 
+                    <span>
+                      기간내의 대상에 포함되는 본섬 안의 노선버스 무제한 이용가능
+                    </span>
+                      
+                      가격
+                      1일 24시간: 어른 2500엔/어린이 1250엔
+                  </p>
+            </div>
+            <div class="ticket_wrap">
+                <div class="ticket_title">오키나와 티켓</div>
+                <h2>JR</h2>
+                <ul>
+                    <li>
+                        &nbsp;성인 &nbsp;&nbsp;<input id='adult' onchange='print()' value=''/>
+                    </li>
+                    
+                    <li>
+                        총가격 <input id='result1'readonly/>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        어린이 <input id='teenager' onchange='print2()' value=''/>
+                    </li>
+                    
+                    <li>
+                        총가격 <input id='result2'readonly/>
+                    </li>
+                    <input id="ticket_button" type="button" value="총 합계" onclick="print3()">
+                </ul>
+                <ul>
+                    <li>
+                        총합계 <input id="ticket_sum">
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="con8">
+            <ul>
+                <li>
+                    <h2>더 많은 여행팁을 알고 싶다면?</h2>
+                </li>
+                <li>
+                    <a href="#">
+                        +MORE
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+    <footer>
+        <h4>KR 서울특별시 강서구 화곡로 149 3층 <br>3rd floor, 149, Hwafok-ro, Gangseo-gu, Seoul, KR</h4>
+        <img src="img/footer_cat.png">
+        <div class="sns">
+            <div class="img">
+                <a href=""><img src="img/facebook_b.png"></a>
+                <a href=""><img src="img/insta_b.png"></a>
+                <a href=""><img src="img/twitter_b.png"></a>
+                <a href=""><img src="img/pinterest_b.png"></a>
+            </div>
+            <p>이용약관 ｜ 개인정보관리방침</p>
+        </div>
+    </footer>
+    
+
+    
+</body>
+</html>

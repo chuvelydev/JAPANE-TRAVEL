@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JAPAN TRAVEL</title>
+    <link href="/img/logo_b_title.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="css/index.css" rel="stylesheet">
+    <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script>
+      /*con1 hover */
+      $(document).ready(function(){
+      $(".visual_bottom > li:nth-child(1) > a").mouseover(function(){            
+          $(".visual_img div:nth-child(1) img").addClass("up");
+      });  
+      $(".visual_img div:nth-child(1) img").mouseover(function(){  
+          $(".visual_img div:nth-child(1) img").addClass("up");          
+          $(".visual_bottom > li:nth-child(1) > a").addClass("up1");
+      });  
+      
+      $(".visual_bottom > li > a").mouseout(function(){            
+        $(".visual_img div:nth-child(1) img").removeClass("up");
+      });
+      
+      $(".visual_img div:nth-child(1) img").mouseout(function(){    
+        $(".visual_img div:nth-child(1) img").removeClass("up");
+        $(".visual_bottom > li:nth-child(1) > a").removeClass("up1");
+      });  
+      
+      $(".visual_bottom > li:nth-child(2) > a").mouseover(function(){            
+        $(".visual_img div:nth-child(2) img").addClass("up");
+      });  
+      
+      $(".visual_img div:nth-child(2) img").mouseover(function(){  
+        $(".visual_img div:nth-child(2) img").addClass("up");          
+        $(".visual_bottom > li:nth-child(2) > a").addClass("up1");
+      });  
+      
+      $(".visual_bottom > li > a").mouseout(function(){            
+        $(".visual_img div:nth-child(2) img").removeClass("up");
+      });
+      
+      $(".visual_img div:nth-child(2) img").mouseout(function(){    
+        $(".visual_img div:nth-child(2) img").removeClass("up");
+        $(".visual_bottom > li:nth-child(2) > a").removeClass("up1");
+      });  
+
+      $(".visual_bottom > li:nth-child(3) > a").mouseover(function(){            
+          $(".visual_img div:nth-child(3) img").addClass("up");
+      });  
+
+      $(".visual_img div:nth-child(3) img").mouseover(function(){  
+        $(".visual_img div:nth-child(3) img").addClass("up");          
+        $(".visual_bottom > li:nth-child(3) > a").addClass("up1");
+      });  
+    
+      $(".visual_bottom > li > a").mouseout(function(){            
+      $(".visual_img div:nth-child(3) img").removeClass("up");
+      });
+
+      $(".visual_img div:nth-child(3) img").mouseout(function(){    
+        $(".visual_img div:nth-child(3) img").removeClass("up");
+        $(".visual_bottom > li:nth-child(3) > a").removeClass("up1");
+      });  
+
+
+      $(".visual_bottom > li:nth-child(4) > a").mouseover(function(){            
+          $(".visual_img div:nth-child(4) img").addClass("up");
+      });  
+
+      $(".visual_img div:nth-child(4) img").mouseover(function(){  
+        $(".visual_img div:nth-child(4) img").addClass("up");          
+        $(".visual_bottom > li:nth-child(4) > a").addClass("up1");
+      });  
+
+      $(".visual_bottom > li:nth-child(4) > a").mouseout(function(){            
+      $(".visual_img div:nth-child(4) img").removeClass("up");
+      });          
+      
+      $(".visual_img div:nth-child(4) img").mouseout(function(){    
+        $(".visual_img div:nth-child(4) img").removeClass("up");
+        $(".visual_bottom > li:nth-child(4) > a").removeClass("up1");
+      });  
+    });
+
+
+    </script>
+
+  </head>
+
+  <body style="overflow-x:hidden; overflow-y:auto;">
+
+    <header>
+        <a href="">
+          <h1 class="logo">
+            <img src="img/logo_b.png" alt="">
+          </h1>
+        </a>
+        <nav class="menu">
+            <div><a href="osaka.html">OSAKA</a></div>
+            <div><a href="okinawa.html">OKINAWA</a></div>
+            <div><a href="fukuoka.html">FUKUOKA</a></div>
+            <div><a href="sapporo.html">SAPPORO</a></div>
+        </nav>
+    </header>
+
+    <div id="visual">
+      <div class="right_text">
+          <div class="front_2023">
+              JAPAN<br>2023
+          </div>
+          <div class="back_2023">
+              JAPAN<br>2023
+          </div>
+      </div>
+      <div>
+        <div class="left_text">
+            <div>클릭해보세요!</div>
+            <div>여행을 계획중이라면</div>
+            <div>일본의 사계절.</div>
+        </div>
+        <div class="visual_img">
+            <div>
+              <a href="osaka.html">
+                <img src="img/spring.png" alt="">
+              </a>
+            </div>
+            <div>
+              <a href="okinawa.html">
+                <img src="img/summer.png" alt="">
+              </a>
+            </div>
+            <div>
+              <a href="fukuoka.html">
+                <img src="img/fall.png" alt="">
+              </a>
+            </div>
+            <div>
+              <a href="sapporo.html">
+                <img src="img/winter.png" alt="">
+              </a>
+            </div>
+        </div>
+        <ul class="visual_bottom">
+            <li><a href="osaka.html"><span>01</span>봄</a></li>
+            <li><a href="okinawa.html"><span>02</span>여름</a></li>
+            <li><a href="fukuoka.html"><span>03</span>가을</a></li>
+            <li><a href="sapporo.html"><span>04</span>겨울</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div id="container">
+        <div class="con1_moble">
+          <div class="con1_mobled">
+            <a href="osaka.html">
+              <ul class="con1_mobled_spring">
+                <li>01</li>
+                <li>봄</li>
+                <li><img src="img/spring.png" alt=""></li>
+              </ul>
+            </a>
+          </div>
+          <div>
+            <a href="okinawa.html">
+              <ul class="con1_mobled_summer">
+                <li>02</li>
+                <li>여름</li>
+                <li><img src="img/summer.png" alt=""></li>
+              </ul>
+            </a>
+          </div>
+          <div>
+            <a href="fukuoka.html">
+              <ul class="con1_mobled_fall">
+                <li>03</li>
+                <li>가을</li>
+                <li><img src="img/fall.png" alt=""></li>
+              </ul>
+            </a>
+          </div>
+          <div>
+            <a href="sapporo.html">
+              <ul class="con1_mobled_winter">
+                <li>04</li>
+                <li>겨울</li>
+                <li><img src="img/winter.png" alt=""></li>
+              </ul>
+            </a>
+          </div>
+        </div>
+        <div class="con2">
+          <div>
+            <div class="text">
+              <h4>매번 같은 여행? NO!</h4>
+              <h2>색다르게<br>
+                남다르게</h2>
+              <p>일본 – 일본은 동북아시아(동아시아)
+                로 불리는 지역에 있으며 태평양, 오호츠크해,
+                 일본해, 동중국해로 둘러싸여 있다.
+                일본의 면적은 말레이시아 독일보다는 
+                크며 대한민국 면적과 비교하면 무려
+                3.7배의 크기로 아주 큰 나라이다.
+                수도는 도쿄를 두고 있으며 화페는
+                엔(￥)을 사용한다.</p>
+            </div>
+            <div class="image">
+              <img src="img/maps.png">
+              <div class="festibal_osaka">
+                <img class="img1" src="img/point_osaka.png">
+                <img class="img2" src="img/maps_osaka.png">
+              </div>
+              <div class="festibal_okinawa">
+                <img class="img1" src="img/point_okinawa.png">
+                <img class="img2" src="img/maps_okinawa.png">
+              </div>
+              <div class="festibal_fukuoka">
+                <img class="img1" src="img/point_fukuoka.png">
+                <img class="img2" src="img/maps_fukuoka.png">
+              </div>
+              <div class="festibal_sapporo">
+                <img class="img1" src="img/point_sapporo.png">
+                <img class="img2" src="img/maps_sapporo.png">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="con2_moble">
+          <div><img src="img/maps_osaka.png" alt=""></div>
+          <div><img src="img/maps_okinawa.png" alt=""></div>
+          <div><img src="img/maps_fukuoka.png" alt=""></div>
+          <div><img src="img/maps_sapporo.png" alt=""></div>
+        </div>
+        <div class="con3">
+          <ul>
+            <li>
+              <h3>교통</h3>
+              <div class="bg_black">
+              <ul>
+                <li><a href="https://apps.apple.com/kr/app/id686373726"><img src="img/Application_6.png"></a></li>
+                <li><a href="https://play.google.com/store/search?q=payke&c=apps&hl=ko&gl=KR"><img src="img/Application_12.png"></a></li>
+                <li><a href="https://apps.apple.com/kr/app/japan-transit-planner/id299490481"><img src="img/Application_11.png"></a></li>
+                <li><a href="https://play.google.com/store/apps/details?id=digital.cardreader&hl=ko&gl=KR"><img src="img/Application_15.png"></a></li>
+              </ul>
+              </div>
+            </li>
+            <li>
+              <h3>예약</h3>
+              <div class="bg_black">
+                <ul>
+                  <li><a href="https://play.google.com/store/search?q=%ED%8A%B8%EB%A6%AC%ED%94%8C&c=apps&hl=ko&gl=KR"><img src="img/Application_1.png"></a></li>
+                  <li><a href="https://play.google.com/store/search?q=%ED%8A%B8%EB%A6%AC%ED%94%8C&c=apps&hl=ko&gl=KR"><img src="img/Application_2.png"></a></li>
+                  <li><a href="https://play.google.com/store/search?q=%EC%8A%A4%EC%B9%B4%EC%9D%B4%EC%8A%A4%EC%BA%90%EB%84%88&c=apps&hl=ko&gl=KR"><img src="img/Application_3.png"></a></li>
+                  <li><a href="https://play.google.com/store/search?q=%ED%81%B4%EB%A3%A9&c=apps&hl=ko&gl=KR"><img src="img/Application_13.png"></a></li>
+                </ul>
+              </div>
+            </li><li>
+              <h3>번역</h3>
+              <div class="bg_black">
+              <ul>
+                <li><a href="https://play.google.com/store/search?q=%ED%8C%8C%ED%8C%8C%EA%B3%A0&c=apps&hl=ko&gl=KR"><img src="img/Application_5.png"></a></li>
+                <li><a href="https://play.google.com/store/search?q=%EA%B5%AC%EA%B8%80%20%EB%B2%88%EC%97%AD&c=apps&hl=ko&gl=KR"><img src="img/Application_8.png"></a></li>
+              </ul>
+              </div>
+            </li><li>
+              <h3>기타</h3>
+              <div class="bg_black">
+              <ul>
+                <li><a href="https://play.google.com/store/search?q=%EC%9E%AC%EB%82%9C%EB%AC%B8%EC%9E%90&c=apps&hl=ko&gl=KR"><img src="img/Application_14.png"></a></li>
+                <li><a href="https://play.google.com/store/search?q=%EA%B5%AC%EA%B8%80%EB%A7%B5&c=apps&hl=ko&gl=KR"><img src="img/Application_4.png"></a></li>
+                <li><a href="https://play.google.com/store/search?q=%ED%95%98%EB%82%98%ED%88%AC%EC%96%B4&c=apps&hl=ko&gl=KR"><img src="img/Application_7.png"></a></li>
+                <li><a href="https://play.google.com/store/search?q=payke&c=apps&hl=ko&gl=KR"><img src="img/Application_12.png"></a></li>
+              </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="con4">
+          <ul>
+            <li class="text">
+              <h2>더 많은 정보 <br> 더 좋은 여행</h2>
+              <p>More information
+                <br>A better trip</p>
+            </li>
+            <li class="line">
+              <img src="img/line.png">
+              <img src="img/plus.png">
+            </li>
+            <li class="con">
+              <img src="img/tips2.jpg">
+              <div>
+                <h3>Popular attractions<br>인기명소</h3>
+                <p>취향이 비슷한
+                  <br>사람들이 가장
+                  <br>많이 찾는 명소
+                </p>
+              </div>
+              <div class="button"><a href="#">VIEW</a></div>
+            </li>
+            <li class="con">
+              <img src="img/tips1.jpg">
+              <div>
+                <h3>Traffic information<br>교통정보</h3>
+                <p>일본 여행에서
+                  <br>돈 아끼는
+                  <br>교통정보
+                </p>
+              </div>
+              <div class="button"><a href="#">VIEW</a></div>
+            </li>
+            <li class="con">
+              <img src="img/tips3.jpg">
+              <div>
+                <h3>Basic conversation<br>기본회화</h3>
+                <p>실생활에서
+                  <br>가장 많이 쓰는
+                  <br>기본 회화
+                </p>
+              </div>
+              <div class="button"><a href="#">VIEW</a></div>
+            </li>
+          </ul>
+        </div>
+
+    </div>
+
+    <div class="con8">
+      <ul>
+          <li>
+              <h2>더 많은 여행팁을 알고 싶다면?</h2>
+          </li>
+          <li>
+              <a href="#">
+                  +MORE
+              </a>
+          </li>
+      </ul>
+    </div>
+
+</div>
+
+<footer>
+  <h4>KR 서울특별시 강서구 화곡로 149 3층 <br>3rd floor, 149, Hwafok-ro, Gangseo-gu, Seoul, KR</h4>
+  <img src="img/footer_cat.png">
+  <div class="sns">
+      <div class="img">
+          <a href=""><img src="img/facebook_b.png"></a>
+          <a href=""><img src="img/insta_b.png"></a>
+          <a href=""><img src="img/twitter_b.png"></a>
+          <a href=""><img src="img/pinterest_b.png"></a>
+      </div>
+      <p>이용약관 ｜ 개인정보관리방침</p>
+  </div>
+</footer>
+  </body>
+</html>
